@@ -4,11 +4,13 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import androidx.activity.viewModels
 import androidx.annotation.ColorInt
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import androidx.lifecycle.lifecycleScope
 import com.google.android.material.snackbar.Snackbar
 import com.ibrajix.directcurrencyconverter.R
 import com.ibrajix.directcurrencyconverter.databinding.ActivityMainBinding
@@ -231,6 +233,8 @@ class MainActivity : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     private fun observeUi() {
+
+
         mainViewModel.data.observe(this, androidx.lifecycle.Observer {result ->
 
             when(result.status){
@@ -241,12 +245,14 @@ class MainActivity : AppCompatActivity() {
 
                         map = result.data.rates
 
-
                         map.keys.forEach {
+
                             val rateForAmount = map[it]?.rate_for_amount
 
+                            mainViewModel.convertedRate.value = rateForAmount
+
                             //format the result obtained e.g 1000 = 1,000
-                            val formattedString = String.format("%,.2f", rateForAmount)
+                            val formattedString = String.format("%,.2f", mainViewModel.convertedRate.value)
 
                             //set the value in the second edit text field
                             binding.etSecondCurrency.setText(formattedString)
