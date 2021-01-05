@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Direct Currency Converter</string>
+    <string name="sign_up">Sign up</string>
+    <string name="currency">Currency</string>
+    <string name="dot">.</string>
+    <string name="afn">AFN</string>
+    <string name="refresh">refresh</string>
+    <string name="convert">Convert</string>
+    <string name="contact">Contact</string>
+    <string name="converter">Converter</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="amount">Amount</string>
+    <string name="result">Result</string>
+    <string name="converted_amount">Converted Amount</string>
+</resources>
