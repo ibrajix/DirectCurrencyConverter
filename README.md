@@ -1,6 +1,8 @@
 # DirectCurrencyConverter
 Currency Converter App for Android highlighting recommended Architectural patterns.
 
+![Currrency converter](https://miro.medium.com/max/1400/1*VyerXSttKlWek9Kub8HoTA.png)
+
 This app uses —
 
 Kotlin
