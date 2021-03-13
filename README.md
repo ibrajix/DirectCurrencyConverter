@@ -1,9 +1,8 @@
 # DirectCurrencyConverter
 Currency Converter App for Android highlighting recommended Architectural patterns.
 
-![Currrency converter]
+![Currrency converter](https://miro.medium.com/max/1400/1*VyerXSttKlWek9Kub8HoTA.png)
 
-<img src="<a href='https://miro.medium.com/max/1400/1*VyerXSttKlWek9Kub8HoTA.png'></a>" width="260">
 
 This app uses —
 
