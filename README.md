@@ -2,7 +2,7 @@
 Currency Converter App for Android highlighting recommended Architectural patterns.
 
 
-<img src="https://miro.medium.com/max/1400/1*VyerXSttKlWek9Kub8HoTA.png" align="left" height="400" width="400" > 
+<img src="https://miro.medium.com/max/1400/1*VyerXSttKlWek9Kub8HoTA.png" height="500" > 
 
 ## This App Uses
 
