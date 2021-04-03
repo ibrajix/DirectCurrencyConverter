@@ -26,3 +26,6 @@ View Binding (For interacting with views)
 
 Some other libraries
 
+Check my article on it -
+
+https://medium.com/swlh/how-i-built-a-simple-currency-converter-app-using-recommended-android-pattern-and-architecture-204a3bbfc142
